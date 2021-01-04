@@ -11,3 +11,12 @@ Targil:
    create String lname variable and read from the keyboard the last name of the user
    then print the user first_name and last name in one line...
 
+ String id = "123456789";
+        String full_name = "yoram biton";
+        String address = "Etrog 65";
+        String details = id + " " + full_name + " " + address;
+        System.out.println("details: " +  details);
+
+        Scanner s  =  new Scanner(System.in);
+        String fname = s.nextLine();
+
